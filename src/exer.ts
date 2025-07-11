@@ -26,3 +26,11 @@ function nomeCompleto(nome: string, sobrenome: string): string {
 
 
 export const nomeInteiro: string = nomeCompleto("Lucas", "Ferreira");
+
+//Exercício 03
+//Crie uma função que recebe duas palavras (strings) e retorna sua concatenação. De forma resumida,
+//deve juntar as duas palavras
+
+export function stringsJuntas(palavra1: string, palavra2: string): string {
+    return `${palavra1} ${palavra2}`;
+}
