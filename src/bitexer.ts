@@ -22,3 +22,11 @@ export function exibicao(nome: string, sobrenome: string, campoDeEstudo: string,
     const idade: number = new Date().getFullYear() - anoDeNascimento;
     return `O nome completo é: ${nome} ${sobrenome}.\nCampo de estudo: ${campoDeEstudo}.\nAno de nascimento: ${anoDeNascimento}.\nEntão sua idade é: ${idade}.`;
 }
+
+//Crie uma função que recebe duas palavras (strings) e retorna sua concatenação. De forma resumida,
+//deve juntar as duas palavras
+
+export function stringsJuntas(palavra1: string, palavra2: string): string {
+    return `${palavra1} ${palavra2}`;
+}
+
